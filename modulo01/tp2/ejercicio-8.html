@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+      
+
+        var numal = []; 
+        var cant = 100; 
+        var max = 100; 
+
+        function azar(a) {
+            var v = Math.floor(Math.random() * max);
+            if (!a.some(function (e) { return e == v })) {
+                
+                a.push(v);
+            }
+        }
+      
+        while (numal.length < cant ) {
+            azar(numal);
+        }
+        document.write(numal, '<BR/>' )
+
+
+
+    </script>
+</body>
+
+</html>

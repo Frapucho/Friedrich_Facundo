@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var valores = [true, false, 2, "hola", "mundo", 3, "char"];
+        var a = ""
+        for (let i = 0; i < valores.length; i++) {
+            const element = valores[i];
+            if (a.length < valores[i].length) {
+                a = valores[i]
+            }
+            
+        }
+        document.write("El valor mas extenso es: ", a, '<BR/>')
+
+        // operaciones
+
+        let s = valores[2] + valores[5];
+        let r = valores[2] - valores[5];
+        let d = valores[2] / valores[5];
+        let m = valores[2] * valores[5];
+
+        document.write("operaciones", '<BR/>');
+        document.write("suma = ", s, '<BR/>');
+        document.write("resta = ", r, '<BR/>');
+        document.write("division = ", d, '<BR/>');
+        document.write("multiplicacion = ", m, '<BR/>');
+
+    </script>
+</body>
+
+</html>

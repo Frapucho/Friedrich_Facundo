@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var cadena = prompt("ingrese texto")
+        var Mayusculas = 0
+        var Minusculas = 0
+
+        function May(l) {
+            return l === l.toUpperCase();
+        }
+
+        function Min(l) {
+            return l === l.toLowerCase();
+        }
+
+        for (var index = 0; index < cadena.length; index++) {
+            var letraA = cadena.charAt(index);
+            if (May(letraA)) {
+                console.log("La letra " + letraA + " es mayúscula");
+                Mayusculas = Mayusculas+1
+            }
+
+            if (Min(letraA)) {
+                console.log("La letra " + letraA + " es minúscula");
+                Minusculas = Minusculas+1
+            }
+        };
+        if (Mayusculas > Minusculas) {
+            alert("La mayoria de las letras son mayusculas")
+
+        };
+        if (Mayusculas < Minusculas) {
+            alert("La mayoria de las letras son minusculas")
+
+        };
+        if (Mayusculas === Minusculas) {
+            alert("El numero de mayusculas y minusculas es igual")
+
+        };
+    </script>
+</body>
+
+</html>
