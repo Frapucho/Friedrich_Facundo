@@ -1,0 +1,14 @@
+'use strict';
+const fs = require('fs');
+fs.readFile('personas.json', (err, data) => {
+if (err) throw err;
+console.log(JSON.parse(data));
+});
+
+
+/* La función readFile lee los datos del archivo de forma asincrónica. Llama a la función, el proceso
+de lectura del archivo comienza e inmediatamente el control cambia a la siguiente línea
+ejecutando las líneas restantes de código. Una vez que se han cargado los datos del archivo, esta
+función llamará a la función de devolución de llamada que se le proporcionó. De esta manera, no
+está bloqueando la ejecución del código mientras espera que el sistema operativo se comunique
+con usted con los datos. */

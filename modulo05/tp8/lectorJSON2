@@ -1,0 +1,12 @@
+'use strict';
+let jsonData = require('./personas.json');
+console.log(jsonData);
+
+/* Utilizando require es similar a readFileSync, también lee datos de un archivo de forma síncrona
+y se lo puede utilizar desde cualquier lugar. Aunque tiene sus limitaciones.
+● Require es una función sincrónica y se llama solo una vez, lo que significa que las
+llamadas reciben un resultado en caché. Si el archivo está actualizado, no puede volver a
+leerlo con este método.
+● Su archivo debe tener la extensión ‘.json’, por lo que no puede ser tan flexible. Sin la
+extensión adecuada requiere no trata el archivo como un archivo JSON.
+ */

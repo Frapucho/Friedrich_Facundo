@@ -1,0 +1,10 @@
+const fs = require('fs');
+let rawdata = fs.readFileSync('./personas.json');
+let persona = JSON.parse(rawdata);
+console.log(persona);
+
+
+/* Se lee los archivos JSON con el módulo fs (https://nodejs.org/api/fs.html) con las funciones
+readFileSync. La función readFileSync lee datos de un archivo de forma síncrona Nota:
+personas.json es el archivo generado en el ejercicio 1 del tp7.
+ */
