@@ -1,5 +1,4 @@
-[
-
+{ "personas" : [
   {
     "Nombre": "Pedro",
     "Apellido": "Guzman",
@@ -35,4 +34,4 @@
     "Telefono": "3765334455",
     "Localidad": "Posadas"
   }
-]
+]}
