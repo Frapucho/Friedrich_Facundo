@@ -1,0 +1,32 @@
+a - Describe dos usos o funciones que proporciona la declaración DOCTYPE en una página web.
+
+DOCTYPE informa tanto al navegador como a los programadores, que lenguaje de codigo se utiliza en el archivo. 
+Si falta la etiqueda de DOCTYPE, se detecta automaticamente un error, es probable que el navegador no pueda comprender la sintaxis utilizada y surjan errores tanto de visualizacion como de funcionalidad.
+
+
+b - Para que se utilizan las siguientes etiquetas:
+<head> </head>                   = Brinda información sobre el documento
+<title> </title>                 = Define un título para el documento
+<meta>                           = Define el metadato de un documento
+<style> </style>                 = Define un estilo para la informacion del documento
+<body> </body>                   = Define el cuerpo del documento
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6>    = Define encabezados o titulos 
+<a>                              = Defina un hipervinculo
+<strong>                         = Convierte un texto en negrita
+<br>                             = Salto de linea
+<ul>                             = Lista desordenada
+<li>                             = Define un item de una lista 
+<p>                              = Define un parrafo
+<span>                           = Define una seccion del documento
+<table> </table>                 = Define una tabla
+<tr> </tr>                       = Define una fila en una tabla
+<td> </td>                       = Define una celda en una tabla
+<img>                            = Define una imagen 
+
+
+c- La etiqueta <script> puede ir dentro de las etiquetas de de <body> o <head>, hay alguna
+diferencia donde pueda ir?
+
+Dependiendo el caso particular de lo que se este codificando, puede ser mejor o peor utilizar <script> en uno u otro lugar, por ejemplo, si se tiene un script extenso 
+y se lo ejecuta en el head, el documento se va a mantener en blanco hasta que el script se descargue y ejecute, html pausa la descarga de los otros archivos para descargar
+el script con prioridad. Por lo que en este caso seria mejor dejarlo al final del body, ya que cargaria en segundo plano, ahorrando de esta forma una pantalla blanca al inicio.  
