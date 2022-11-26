@@ -2,7 +2,7 @@
 let jsonData = require('d:/desktop/tarea/tp8/personas.json');
 console.log(JSON.stringify(jsonData));
 
-// JSON.stringify(jsonData), imprime datos del archivo .json
+// JSON.stringify(jsonData), imprime datos del archivo .json en formato cadena
 
 
 console.log(JSON.parse(jsonData));

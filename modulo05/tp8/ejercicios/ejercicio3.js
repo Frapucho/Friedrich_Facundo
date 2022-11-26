@@ -2,7 +2,7 @@
 const fs = require('fs');
 fs.readFile('D:/Desktop/tarea/tp8/personas.json', (err, data) => {
 if (err) throw err;
-//console.log(JSON.stringify(data));
+console.log(JSON.stringify(data));
 });
 
 
@@ -10,3 +10,4 @@ if (err) throw err;
 
 console.log(data);
 
+// codigo de error porque data no se encuentra definido 
