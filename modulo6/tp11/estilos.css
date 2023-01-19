@@ -35,6 +35,11 @@
     color: darkblue;
 }
 
+.menu-item{
+    border: 1px solid gray;
+    
+}
+
 .barramenu{
     padding: 5px;
     height: 60px;
