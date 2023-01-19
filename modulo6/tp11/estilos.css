@@ -1,0 +1,43 @@
+.encabezado{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: darkblue;
+    border: 2px solid darkblue;
+}
+
+.imgcabecera{
+    height: 50px;
+}
+
+.material-symbols-outlined{
+    font-variation-settings: 
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.titulo{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border: 2px solid darkblue;
+    margin: 0px;
+
+}
+
+.menu{
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 25px;
+    color: darkblue;
+}
+
+.barramenu{
+    padding: 5px;
+    height: 60px;
+    text-align: center;
+    background-color: #e4e4e4;
+}
