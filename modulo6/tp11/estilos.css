@@ -4,10 +4,18 @@
     padding: 20px;
     background-color: darkblue;
     border: 2px solid darkblue;
+    margin: 0px;
+}
+
+.seccion{
+background-color: #e4e4e4;
+margin: 0px;
 }
 
 .imgcabecera{
     height: 50px;
+    align-items: center;
+    position: absolute 20px;
 }
 
 .material-symbols-outlined{
@@ -29,10 +37,11 @@
 }
 
 .menu{
-    border: 1px solid gray;
+    
     padding: 5px;
     font-size: 25px;
     color: darkblue;
+    background-color: #e4e4e4;
 }
 
 .menu-item{
@@ -46,3 +55,21 @@
     text-align: center;
     background-color: #e4e4e4;
 }
+
+.table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+  }
+  
+  table {
+    width: 70%;
+    
+  }
+  
+  tr:hover {
+     background-color: #e4e4e4;
+  }
+  
