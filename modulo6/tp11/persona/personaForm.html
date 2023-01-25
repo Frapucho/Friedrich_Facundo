@@ -37,7 +37,7 @@
     Gestion Personas
 </h1>
 
-<p>
+<!-- <p>
     <form action="/datos-personales.php"></form>
         <label for="DNI">DNI:</label><br>
         <input type="text" id="DNI" name="DNI"><br>
@@ -58,8 +58,86 @@
         <label for="pwd">Contraseña:</label><br>
         <input type="password" id="pwd" name="pwd">
     </form>
-    </p>
-
+    </p> -->
+    <main>
+        <form>
+          <div class="form_section">
+            <label class="form_section_title">Datos personales:</label>
+            <div class="input_div">
+              <label>*DNI:</label>
+              <input type="number" placeholder="Ingrese su DNI" />
+            </div>
+            <div class="input_div">
+              <label>*Nombre:</label>
+              <input type="text" placeholder="Ingrese su nombre" />
+            </div>
+            <div class="input_div">
+              <label>*Apellido:</label>
+              <input type="text" placeholder="Ingrese su apellido" />
+            </div>
+            <hr />
+    
+            <div class="input_div">
+              <label>Sexo:</label>
+              <div class="input_radio">
+                <input type="radio" id="masculino" name="sexo" value="masculino" />
+                <label for="masculino">Masculino</label>
+              </div>
+              <div class="input_radio">
+                <input type="radio" id="femenino" name="sexo" value="femenino" />
+                <label for="femenino">Femenino</label>
+              </div>
+              <div class="input_radio">
+                <input type="radio" id="otro" name="sexo" value="otro" />
+                <label for="otro">Otro</label>
+              </div>
+            </div>
+            <br />
+            <div class="input_div">
+              <label>Fecha de Nacimiento:</label>
+              <input type="date" />
+            </div>
+          </div>
+    
+          <div class="form_section">
+            <label class="form_section_title">Datos de acceso:</label>
+            <div class="input_div">
+              <label>Correo Electronico:</label>
+              <input type="email" />
+            </div>
+            <div class="input_div">
+              <label>Constraseña</label>
+              <input type="password" />
+            </div>
+          </div>
+    
+          <div class="form_section">
+            <label class="form_section_title">Datos academicos:</label>
+            <div class="">
+              <label>Nivel de estudio:</label>
+              <select>
+                <option value="Primario">Primario</option>
+                <option value="Secundario">Secundario</option>
+                <option value="Terciario">Terciario</option>
+                <option value="Universitario">Universitario</option>
+                <option value="Posgrado">Postgrado</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+          </div>
+    
+          <div class="form_section">
+            <label class="form_section_title">Acciones:</label>
+            <div>
+              <button> <span class="material-symbols-outlined button_icon">add_circle</span>Crear persona</button>
+              <button>Limpiar datos</button>
+            </div>
+    
+    
+          </div>
+          </div>
+        </form>
+      </main>
 
 
 </body>
